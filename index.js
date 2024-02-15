@@ -50,7 +50,7 @@ const rest = new REST({ version: "9" }).setToken(process.env.TOKEN);
       chalk.yellowBright("Started refreshing application [/] commands.")
     );
 
-    await rest.put(Routes.applicationCommands("928758715505578094"), {
+    await rest.put(Routes.applicationCommands("1207683649055494155"), {
       body: commands
     });
     console.log(
